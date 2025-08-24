@@ -1,0 +1,19 @@
+{
+  "name": "gh-bridge-extension",
+  "private": true,
+  "version": "0.0.1",
+  "main": "out/extension.js",
+  "scripts": {
+    "compile": "tsc -p .",
+    "watch": "tsc -w -p ."
+  },
+  "dependencies": {
+    "@ghbridge/shared": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.123",
+    "@types/vscode": "^1.103.0",
+    "typescript": "^5.9.2"
+  }
+}
+

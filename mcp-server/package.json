@@ -1,0 +1,19 @@
+{
+  "name": "gh-bridge-mcp-server",
+  "private": true,
+  "version": "0.0.1",
+  "main": "out/mcp/mcpStandalone.js",
+  "scripts": {
+    "compile": "tsc -p .",
+    "watch": "tsc -w -p .",
+    "start": "node out/mcp/mcpStandalone.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.123",
+    "typescript": "^5.9.2"
+  }
+}
+
